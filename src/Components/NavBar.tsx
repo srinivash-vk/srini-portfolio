@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { ReactComponent as DARKMODE } from "../Assets/Icons/dark-mode.svg";
 import { ReactComponent as LIGHTMODE } from "../Assets/Icons/light-mode.svg";
 
-export default function () {
+export default function NavBar() {
   const [theme, setTheme] = useState<any>(null);
 
   useEffect(() => {

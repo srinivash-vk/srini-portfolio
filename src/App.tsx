@@ -27,7 +27,7 @@ function App() {
         <div className="snap-center flex flex-col lg:h[100vh] flex-1 md:gap-y-8 xs:gap-y-4 mx-auto w-full items-center justify-center">
           {/* my image */}
           <div className="lg:h-[18rem] lg:w-[18rem] md:h-[15rem] md:w-[15rem] xs:h-[10rem] xs:w-[10rem] drop-shadow-2xl dark:shadow-dark rounded-full">
-            <img src={require("../src/Assets/Images/profile-pic.png")} />
+            <img src={require("../src/Assets/Images/profile-pic.png")} alt="myImage"/>
           </div>
           {/* my name */}
           <div className="flex flex-row items-center md:gap-x-4 xs:gap-x-2">
