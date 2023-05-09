@@ -26,21 +26,21 @@ export default function () {
   };
 
   return (
-    <div className="flex flex-row justify-between px-20 items-center py-4 bg-dark  dark:bg-light">
+    <div className="flex flex-row justify-between items-center py-4 bg-dark  dark:bg-light">
       <div className="text-3xl bg-gradient-to-r from-teal-500  to-cyan-500 text-transparent bg-clip-text">
         SV
       </div>
       <div className=" transition-all duration-100" onClick={handleThemeSwitch}>
-        {theme==='light'? 
-         <div className="p-2 bg-zinc-200 rounded-md">
-         <LIGHTMODE className="h-6 w-6" fill="black"/>
-         </div>
-        : <div className="p-2 bg-zinc-200 rounded-md">
-        <DARKMODE className="h-6 w-6" fill="black"/>
-        </div>}
-    </div>
+        {theme === "light" ? (
+          <div className="p-2 bg-zinc-200 rounded-md">
+            <LIGHTMODE className="h-6 w-6" fill="black" />
+          </div>
+        ) : (
+          <div className="p-2 bg-zinc-200 rounded-md">
+            <DARKMODE className="h-6 w-6" fill="black" />
+          </div>
+        )}
+      </div>
     </div>
   );
 }
-
-
