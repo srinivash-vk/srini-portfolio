@@ -1,7 +1,15 @@
+import { useState } from "react";
+import NavBar from "./Components/NavBar";
+
 
 function App() {
+
+
   return (
-   <div className="text-3xl text-black">fgjkhadskjfh</div>
+   <section className="flex flex-col flex-1 bg-light dark:bg-dark text-dark dark:text-light ">
+    <NavBar/>
+    <div className="text-dark dark:text-light"> djfghdjksfh</div>
+   </section>
   );
 }
 
