@@ -26,8 +26,8 @@ export default function NavBar() {
   };
 
   return (
-    <div className="flex flex-row justify-between items-center py-4 bg-dark  dark:bg-light">
-      <div className="text-3xl bg-gradient-to-r from-teal-500  to-cyan-500 text-transparent bg-clip-text">
+    <div className="flex flex-row justify-between items-center py-4 bg-dark dark:bg-light">
+      <div className="cursor-default text-3xl bg-gradient-to-r from-teal-500  to-cyan-500 text-transparent bg-clip-text">
         SV
       </div>
       <div className=" transition-all duration-100" onClick={handleThemeSwitch}>
