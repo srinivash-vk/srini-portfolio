@@ -70,7 +70,7 @@ function App() {
   ]
 
   return (
-    <div className="lg:px-20 md:px-15 xs:px-8 h-screen flex flex-col bg-dark dark:bg-light text-light dark:text-dark content-center w-full">
+    <div className="lg:px-20 md:px-15 xs:px-8 h-full flex flex-col bg-dark dark:bg-light text-light dark:text-dark content-center w-full">
       <NavBar />
       <div className="snap-y">
         <div className="snap-center flex flex-col lg:h[100vh] flex-1 md:gap-y-5 xs:gap-y-4 mx-auto w-full items-center justify-center">
