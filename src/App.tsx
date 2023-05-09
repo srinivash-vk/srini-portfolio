@@ -39,7 +39,7 @@ function App() {
             </div>
           </div>
           {/* description about me */}
-          <div className="md:text-lg xs:text-md md:leading-9 xs:leading-7 text-center font-thin">
+          <div className="md:text-lg xs:text-md md:leading-9 xs:leading-7 text-center lg:font-thin xs:font-normal">
             I’m a front-end developer from Erode. My coding journey began early
             two year when I started learning to code with youtube and building
             projects. So far I've learned and coded several projects with
