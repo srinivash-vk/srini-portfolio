@@ -20,6 +20,7 @@ export default function ProjectsScreen(props: ProjectsScreenProps) {
             <div className="py-3 px-3 flex md:flex-row flex-col gap-y-4 gap-x-4 bg-light dark:bg-gray-200 lg:w-[100rem] md:w-[50rem] rounded-lg">
               <div className="lg:w-[40rem] md:w-[30rem] sm:w-[20rem] w-full ">
                 <img
+                  loading="eager"
                   className="w-full rounded-md "
                   src={require(`../Assets/Images/${projectData.image}`)}
                   alt="Project_Image"
