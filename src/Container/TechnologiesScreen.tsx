@@ -71,7 +71,7 @@ export default function TechnologiesScreen(props:TechnologiesScreenProps) {
     },
   ];
   return (
-    <div ref={scrollDownRef} className="h-[100vh] flex flex-col mx-auto justify-center items-center overflow-hidden mt-4 w-full">
+    <div ref={scrollDownRef} className="h-[100vh] flex flex-col mx-auto justify-center overflow-hidden mt-4 w-full">
       <div className="flex flex-row justify-center items-center mx-auto mb-6 gap-x-4">
         <div className="text-4xl xs:text-2xl font-medium mb-3">
           Technologies Known
