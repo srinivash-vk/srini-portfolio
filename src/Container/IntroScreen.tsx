@@ -27,7 +27,7 @@ export default function IntroScreen(props:IntroScreenProps) {
 
   const handleButtonClick = () => scrollDown();
   return (
-    <div className="flex flex-col mx-auto lg:justify-center sm:justify-center xs:justify-center items-center h-[100vh] gap-y-4 w-full">
+    <div className="flex flex-col mx-auto justify-center items-center h-[100vh] gap-y-4 w-full">
       <div className="lg:h-[18rem] lg:w-[18rem] md:h-[15rem] md:w-[15rem] sm:h-[18rem] sm:w-[18rem]  xs:h-[18rem] xs:w-[18rem] drop-shadow-2xl dark:shadow-dark rounded-full">
         <img src={require("../Assets/Images/profile-pic.png")} alt="myImage" />
       </div>
