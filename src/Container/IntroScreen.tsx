@@ -65,7 +65,7 @@ export default function IntroScreen(props:IntroScreenProps) {
       <button
         onClick={handleButtonClick}
         className="text-dark mt-5 dark:text-light animate-bounce px-4 py-2 items-center rounded-full bg-gray-200 dark:bg-gray-600">
-        SEE MY WORK 👇
+        See My Works... ❤️
       </button>
     </div>
   );

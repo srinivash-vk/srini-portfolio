@@ -2,6 +2,7 @@ import { useRef } from "react";
 import NavBar from "./Components/NavBar";
 import IntroScreen from "./Container/IntroScreen";
 import TechnologiesScreen from "./Container/TechnologiesScreen";
+import ProjectsScreen from "./Container/ProjectsScreen";
 
 function App() {
   const nextContentRef = useRef<HTMLDivElement>(null);
@@ -19,8 +20,11 @@ function App() {
       {/* Intro about me */}
       <IntroScreen scrollDown={handleButtonClick}/>
 
+      {/* Project done by me */}
+      <ProjectsScreen scrollDownRef={nextContentRef}/>
+
       {/* Technologies Known */}
-      <TechnologiesScreen scrollDownRef={nextContentRef}/>
+      <TechnologiesScreen />
     </div>
   );
 }
