@@ -2,8 +2,9 @@ import { languageKnown } from "../Utils/MyData";
 
 export default function TechnologiesScreen() {
 
-  return (
-    <div className="h-[100vh] flex flex-col mx-auto justify-center overflow-hidden mt-4 w-full">
+  return (    
+    <div className="flex-1 flex flex-col mx-auto justify-center overflow-hidden mt-4 w-full">
+      <div className="h-4"/>
       <div className="flex flex-row justify-center items-center mx-auto mb-6 gap-x-4">
         <div className="text-4xl xs:text-2xl font-medium mb-3">
           Technologies Known
