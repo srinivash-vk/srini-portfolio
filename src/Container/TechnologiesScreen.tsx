@@ -1,3 +1,4 @@
+import ScreenHeader from "../Components/ScreenHeader";
 import { languageKnown } from "../Utils/MyData";
 
 export default function TechnologiesScreen() {
@@ -5,12 +6,7 @@ export default function TechnologiesScreen() {
   return (    
     <div className="flex-1 flex flex-col mx-auto justify-center overflow-hidden mt-4 w-full">
       <div className="h-4"/>
-      <div className="flex flex-row justify-center items-center mx-auto mb-6 gap-x-4">
-        <div className="text-4xl xs:text-2xl font-medium mb-3">
-          Technologies Known
-        </div>
-        <div className="animate-bounce text-4xl">👇</div>
-      </div>
+      <ScreenHeader headerText="Tech Stack Known"/>
       <div className=" grid md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 md:gap-x-4 md:gap-y-4 sm:gap-x-2 sm:gap-y-2">
         {languageKnown.map((languageKnown: any, index: number) => (
           <>

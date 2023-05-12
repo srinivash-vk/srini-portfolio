@@ -1,4 +1,5 @@
 import Chips from "../Components/Chips";
+import ScreenHeader from "../Components/ScreenHeader";
 import { Projects, projectWorks } from "../Utils/MyData";
 
 interface ProjectsScreenProps {
@@ -13,11 +14,11 @@ export default function ProjectsScreen(props: ProjectsScreenProps) {
       ref={scrollDownRef}
       className="flex flex-col mx-auto items-center justify-center h-full gap-y-4 mt-4"
     >
-      <div className="text-4xl xs:text-2xl font-medium mb-3">Projects </div>
+    <ScreenHeader headerText="Projects"/>
       <div className="flex flex-col items-center justify-center gap-x-4 gap-y-4">
         {projectWorks.map((projectData: Projects, index) => (
           <div key={index}>
-            <div className="py-3 px-3 flex md:flex-row flex-col gap-y-4 gap-x-4 bg-light dark:bg-gray-200 lg:w-[100rem] md:w-[50rem] rounded-lg">
+            <div className="py-3 px-3 flex md:flex-row flex-col gap-y-4 gap-x-4 bg-light dark:bg-gray-200 lg:w-[80rem] md:w-[50rem] rounded-lg">
               <div className="lg:w-[40rem] md:w-[30rem] sm:w-[20rem] w-full ">
                 <img
                   loading="eager"
