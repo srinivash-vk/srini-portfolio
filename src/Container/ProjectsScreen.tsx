@@ -41,15 +41,16 @@ export default function ProjectsScreen(props: ProjectsScreenProps) {
                   {projectData.gitHubLink && (
                     <a href={projectData.gitHubLink} target="_blank" rel="noopener noreferrer">
                       <button className="text-dark mt-5 dark:text-light px-4 py-2 items-center rounded-full bg-gray-200 dark:bg-gray-600">
-                        Source Code 👈
+                        Check On Github 👈
                       </button>
                     </a>
                   )}
                   {projectData?.visitLink && (
-                    <a href={projectData.visitLink} target="_blank" rel="noopener noreferrer">
-                      <button className="text-dark mt-5 dark:text-light px-4 py-2 items-center rounded-full bg-gray-200 dark:bg-gray-600">
-                        Demo  👈
+                    <a href={projectData.visitLink} target="_blank" rel="noopener noreferrer" className="flex flex-row gap-x-3 text-dark mt-5 dark:text-light px-4 py-2 items-center rounded-full bg-gray-200 dark:bg-gray-600">
+                      <button className="">
+                        Live Preview  
                       </button>
+                        <div className="h-3 w-3 bg-red-600 rounded-full animate-pulse"></div>
                     </a>
                   )}
                 </div>

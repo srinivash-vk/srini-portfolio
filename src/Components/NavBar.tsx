@@ -26,11 +26,12 @@ export default function NavBar() {
   };
 
   return (
-    <div className="flex flex-row justify-between items-center py-4 bg-dark dark:bg-light">
+    <div className="fixed w-full z-20 top-0 left-0 lg:px-20 md:px-15 sm:px-8 xs:px-8 ">
+    <div className="flex flex-row justify-between items-center py-4 bg-slate-900 dark:bg-light">
       <div className="cursor-default text-3xl bg-gradient-to-r from-teal-500  to-cyan-500 text-transparent bg-clip-text">
         SV
       </div>
-      <div className=" transition-all duration-100" onClick={handleThemeSwitch}>
+      <div className="transition-all duration-100" onClick={handleThemeSwitch}>
         {theme === "light" ? (
           <div className="p-2 bg-zinc-200 rounded-md">
             <LIGHTMODE className="h-6 w-6" fill="black" />
@@ -42,5 +43,6 @@ export default function NavBar() {
         )}
       </div>
     </div>
+        </div>
   );
 }
