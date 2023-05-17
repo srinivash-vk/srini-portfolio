@@ -14,6 +14,7 @@ function App() {
       behavior: "smooth",
     });
   };
+
   return (
     <div className="lg:px-20 md:px-15 sm:px-8 xs:px-8 h-full flex-1 flex flex-col overflow-x-hidden bg-slate-900 dark:bg-light text-light dark:text-dark content-center w-full">
       {/* NavBar layout */}

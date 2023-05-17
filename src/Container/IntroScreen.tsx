@@ -1,5 +1,3 @@
-import { ReactComponent as INTRO } from "../Assets/Icons/intro.svg";
-
 interface IntroScreenProps {
   scrollDown: () => void;
 }
@@ -7,9 +5,10 @@ interface IntroScreenProps {
 export default function IntroScreen(props: IntroScreenProps) {
   const { scrollDown } = props;
   const handleButtonClick = () => scrollDown();
+
   return (
     <div className="flex flex-col mx-auto justify-center items-center h-[100vh] w-full">
-      <div className="flex flex-row items-center justify-center gap-x-4">
+      <div className="flex md:flex-row flex-col items-center mx-auto justify-center gap-x-4">
         <div className="flex flex-col mx-auto justify-center items-center gap-y-4">
           <div className="lg:h-[18rem] lg:w-[18rem] md:h-[15rem] md:w-[15rem] sm:h-[18rem] sm:w-[18rem]  xs:h-[18rem] xs:w-[18rem] drop-shadow-2xl dark:shadow-dark rounded-full">
             <img
@@ -28,7 +27,7 @@ export default function IntroScreen(props: IntroScreenProps) {
             </div>
           </div>
           {/* description about me */}
-          <div className="md:text-lg sm:text-md xs:text-md md:leading-9 xs:leading-7 text-justify font-normal">
+          <div className="md:text-lg sm:text-md xs:text-md md:leading-9 xs:leading-7 font-normal">
             I'm passionate frontend developer with two years of experience in
             building responsive and user-friendly web interfaces. I specialize
             in creating intuitive user experiences and optimizing website
@@ -38,9 +37,6 @@ export default function IntroScreen(props: IntroScreenProps) {
             complex design and technical challenges.
           </div>
          
-        </div>
-        <div>
-          <INTRO />
         </div>
       </div>
       <button
