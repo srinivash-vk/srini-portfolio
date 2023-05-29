@@ -119,9 +119,27 @@ export interface Projects {
 
 export const projectWorks: Projects[] = [
   {
+    title: "RN Push Notification",
+    description:
+      "React native push notification application using firebase",
+    techStack: [TechStack.ReactNative, TechStack.Firebase],
+    image: "RN_PushNotification.png",
+    gitHubLink:'https://github.com/srinivash-vk/RN_PushNotification',
+  },
+  {
+    title: "Digi library UI",
+    description:
+      "Digi library UI developed using React and Tailwind CSS, for data dummy json data is used.",
+    techStack: [TechStack.ReactJS, TechStack.TailwindCSS, TechStack.Typescript],
+    image: "ebook.png",
+    gitHubLink:'https://github.com/srinivash-vk/e-book',
+    visitLink:'https://digi-library.vercel.app/'
+    
+  },
+  {
     title: "SpaceX UI",
     description:
-      "SpaceX UI developed using React,  Redux Toolkit and Tailwind CSS, for data SpaceX API is used.",
+      "SpaceX UI developed using React, Redux Toolkit and Tailwind CSS, for data SpaceX API is used.",
     techStack: [TechStack.ReactJS, TechStack.TailwindCSS, TechStack.Typescript],
     image: "spaceX-1.png",
     gitHubLink:'https://github.com/srinivash-vk/spacex',
@@ -145,7 +163,7 @@ export const projectWorks: Projects[] = [
   {
     title: "Clubhouse UI Clone",
     description:
-      "Clubhouse UI clone developed using flutter for data SpaceX dummy data is used.",
+      "Clubhouse UI clone developed using flutter for data dummy data is used.",
     techStack: [TechStack.Flutter, TechStack.Dart],
     image: "Clubhouse.png",
     gitHubLink:'https://github.com/srinivash-vk/ClubHouse-UI-Clone'
@@ -153,7 +171,7 @@ export const projectWorks: Projects[] = [
   {
     title: "Whats App UI Clone",
     description:
-      "Whats App UI clone developed using flutter for data SpaceX dummy data is used.",
+      "Whats App UI clone developed using flutter for data dummy data is used.",
     techStack: [TechStack.Flutter, TechStack.Dart],
     image: "WhatsApp.png",
     gitHubLink:'https://github.com/srinivash-vk/whatsapp'
