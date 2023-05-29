@@ -119,7 +119,7 @@ export interface Projects {
 
 export const projectWorks: Projects[] = [
   {
-    title: "RN Push Notification",
+    title: "React Native Push Notification",
     description:
       "React native push notification application using firebase",
     techStack: [TechStack.ReactNative, TechStack.Firebase],
