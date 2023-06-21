@@ -12,10 +12,10 @@ export default function ContactMeScreen() {
       icon: "LINKEDIN",
       link: "https://www.linkedin.com/in/srinivash-v-5a264214b/",
     },
-    {
-      icon: "MAIL",
-      link: "https://github.com/srinivash-vk",
-    },
+    // {
+    //   icon: "MAIL",
+    //   link: "https://github.com/srinivash-vk",
+    // },
     {
       icon: "GITHUB",
       link: "https://github.com/srinivash-vk",
