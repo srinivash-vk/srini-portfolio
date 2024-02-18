@@ -28,7 +28,7 @@ export default function IntroScreen(props: IntroScreenProps) {
           </div>
           {/* description about me */}
           <div className="md:text-lg sm:text-md xs:text-md md:leading-9 xs:leading-7 font-normal">
-            I'm passionate frontend developer with two years of experience in
+            I'm passionate frontend developer with three years of experience in
             building responsive and user-friendly web interfaces. I specialize
             in creating intuitive user experiences and optimizing website
             performance for seamless browsing.What I love most about frontend
